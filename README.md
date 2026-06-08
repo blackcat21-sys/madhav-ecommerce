@@ -1,75 +1,74 @@
 # 📊 Madhav Ecommerce Sales Dashboard
 
 ## Overview
-This project presents an interactive Power BI dashboard developed to analyze and visualize ecommerce sales data. The dashboard provides insights into sales performance, profit trends, customer behavior, payment preferences, and regional performance through dynamic and interactive visualizations.
+This repository contains a Power BI dashboard built to analyze ecommerce sales performance using transactional order data. The dashboard provides interactive visualizations that help identify sales trends, profit patterns, customer behavior, payment preferences, and regional performance.
 
-## Key Metrics
-- 💰 Total Sales Amount: 438K
-- 📦 Total Quantity Sold: 6K
-- 📈 Total Profit: 37K
-- 🛒 Average Order Value (AOV): 121K
+## Files Included
 
-## Features
-- Interactive Quarter Filter (Q1–Q4)
-- State-wise Sales Analysis
-- Customer-wise Revenue Contribution
-- Category-wise Quantity Distribution
-- Sub-Category Profit Analysis
-- Monthly Profit Trends
-- Payment Mode Distribution
-- Dynamic Filtering and Drill-Down Analysis
+- `Madhav ecommerce.pbix` – Power BI dashboard file
+- `Orders.csv` – Order transaction dataset
+- `Details.csv` – Product and sales details dataset
+- `dark-gradient.jpg` – Background image used for dashboard design
 
-## Dashboard Insights
-### Sales by State
-- Uttar Pradesh generated the highest sales.
-- Rajasthan ranked second in overall revenue.
+## Dashboard Features
 
-### Profit Analysis
-- November recorded the highest profit.
-- Some months experienced negative profit, highlighting potential business challenges.
+### KPI Cards
+- Total Sales Amount
+- Total Quantity Sold
+- Total Profit
+- Average Order Value (AOV)
 
-### Product Categories
-- Clothing contributed the highest quantity sold.
-- Electronics and Furniture followed behind.
+### Interactive Analysis
+- Quarter-wise filtering (Q1–Q4)
+- State-wise sales analysis
+- Customer-wise sales contribution
+- Category-wise quantity distribution
+- Payment mode distribution
+- Monthly profit trends
+- Sub-category profit comparison
 
-### Payment Methods
-- Cash on Delivery (COD) was the most preferred payment method.
-- UPI emerged as the second most used payment option.
+## Key Insights
 
-### Sub-Category Profitability
-- Printers generated the highest profit.
-- Bookcases and Sarees also contributed significantly to profits.
+- Uttar Pradesh generated the highest sales revenue.
+- Clothing contributed the highest sales quantity.
+- Cash on Delivery (COD) was the most frequently used payment method.
+- Printers generated the highest profit among all sub-categories.
+- November recorded the highest monthly profit.
+- Profitability varied significantly across months, highlighting seasonal trends.
 
-## Tools & Technologies
+## Tools Used
+
 - Power BI Desktop
 - Power Query
 - DAX (Data Analysis Expressions)
 - Data Modeling
 - Data Visualization
 
-## Business Value
-This dashboard helps businesses:
-- Monitor sales performance in real time.
-- Identify profitable products and regions.
-- Understand customer purchasing behavior.
-- Track profit trends across different months.
-- Support data-driven decision making.
-
 ## Dashboard Preview
-![Dashboard Screenshot](dashboard.png)
 
-## Repository Contents
-```
-📂 Madhav-Ecommerce-Sales-Dashboard
-│
-├── Madhav_Ecommerce_Dashboard.pbix
-├── dashboard.png
-├── README.md
-└── Dataset.csv
-```
+<img width="100%" alt="Dashboard Preview" src="dashboard.png">
+
+## Business Objectives
+
+This dashboard helps businesses:
+
+- Monitor overall sales performance
+- Track monthly profit trends
+- Identify high-performing states and customers
+- Analyze category and sub-category profitability
+- Understand customer payment preferences
+- Support data-driven decision making
+
+## How to Use
+
+1. Download the repository.
+2. Open `Madhav ecommerce.pbix` in Power BI Desktop.
+3. Ensure `Orders.csv` and `Details.csv` remain in the same location if data refresh is required.
+4. Explore the dashboard using the interactive filters and visuals.
 
 ## Author
-Priyanshu Kumar
+
+**Priyanshu Kumar**
 
 ---
-⭐ If you found this project useful, consider giving it a star.
+⭐ Feel free to fork this repository and explore the dashboard.
