@@ -46,7 +46,8 @@ This repository contains a Power BI dashboard built to analyze ecommerce sales p
 
 ## Dashboard Preview
 
-<img width="100%" alt="Dashboard Preview" src="dashboard.png">
+<img width="1538" height="860" alt="image" src="https://github.com/user-attachments/assets/41d92fec-a416-4887-a1eb-ad5be8afe11f" />
+
 
 ## Business Objectives
 
